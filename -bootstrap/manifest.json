@@ -1,0 +1,10 @@
+{
+    "Image":"plugin",
+    "Name":"QRCode",
+    "Description":"To add QRCode modules",
+    "Access": 900000000,
+    "Reference": "aseqbase/qrcode",
+    "PreInstalls": [],
+    "PostInstalls": [],
+    "MetaData":[]
+}
