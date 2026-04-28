@@ -1,5 +1,5 @@
 {
-    "Image":"plugin",
+    "Image":"qrcode",
     "Name":"QRCode",
     "Description":"To add QRCode modules",
     "Access": 900000000,
