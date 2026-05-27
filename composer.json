@@ -1,5 +1,5 @@
 {
-    "name":"QRCode",
+    "name":"aseqbase/qrcode",
     "description":"To add QRCode modules",
     "type": "package",
     "license": "GPL-3.0-only",
