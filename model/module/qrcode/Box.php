@@ -11,7 +11,7 @@ class Box extends \MiMFa\Module\Image
 
     /**
      * Create the module
-     * @param array|string|null $source The module source
+     * @param array|string|null $content The module source
      */
     public function __construct($content = null)
     {
@@ -22,6 +22,7 @@ class Box extends \MiMFa\Module\Image
     public function GetInner()
     {
         $this->Source = $this->Convert($this->Content);
+        yield from parent::GetInner();
         yield parent::GetScript();
         yield ($this->AllowContent ? $this->GetContent() : "");
     }
